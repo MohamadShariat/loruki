@@ -2,6 +2,9 @@
 
 :root {
   --primary-color: #047aed;
+  --secondary-color: #1c3fa8;
+  --light-color: #f4f4f4;
+  --dark-color: #002240;
 }
 
 * {
@@ -41,6 +44,7 @@ img {
 }
 
 /* Navbar */
+
 .navbar {
   background-color: var(--primary-color);
   color: #fff;
@@ -66,6 +70,7 @@ img {
 }
 
 /* Showcase */
+
 .showcase {
   height: 400px;
   background-color: var(--primary-color);
@@ -159,4 +164,10 @@ img {
 .cli .grid > *:first-child {
   grid-column: 1 / span 2;
   grid-row: 1 / span 2;
+}
+
+/* Cloud */
+
+.cloud .grid {
+  grid-template-columns: 4fr 3fr;
 }
