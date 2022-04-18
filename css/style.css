@@ -193,6 +193,13 @@ img {
   margin-bottom: 10px;
 }
 
+/* Features */
+
+.features-head img {
+  width: 200px;
+  justify-self: flex-end;
+}
+
 /* Footer */
 
 .footer .social a {
